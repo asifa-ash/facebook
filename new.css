@@ -1,0 +1,497 @@
+body{
+    margin:0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height:50px;
+    background: white;
+    
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row-start;
+    width: 100vw;
+    box-shadow: 0 0 0 0.8px rgba(216, 213, 213, 0.781);
+
+}
+
+
+.main-body{
+    background:linear-gradient(white,rgb(158, 213, 238));
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.bx-search{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 16px;
+    
+}
+.logo{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.first{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13%;
+    
+}
+.second > i{
+    padding-left: 60px;
+    padding-top: 13px;
+    cursor: pointer;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+   
+    
+}
+.second > i:hover{
+    color: rgb(8, 122, 228);
+    
+    
+}
+
+.third{
+    display: flex;
+    justify-content:start;
+    font-size: 40px;
+    align-items: center;
+    margin-left: 22%;
+    
+}
+.third > i{
+    padding-left:15px;
+    padding-top: 20px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+.left-side{
+    width: 40%;
+   height: 800px;
+   position: fixed
+   
+}
+
+.profile{
+    position: relative;
+    top: 10px;
+    background: #1e1e1e;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+
+
+}
+.profile > img{
+    position: relative;
+    bottom: 7px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+
+}
+/* body section */
+.body{
+    height: 93vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left-slider{
+    background:linear-gradient(white,rgb(158, 213, 238));
+    width: 400px;
+    overflow-y: auto;
+    height: 93vh;
+    font-size: 25px;
+    list-style: none;
+
+}
+.left-slider > span{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px;
+   
+    
+    
+    
+}
+.left-slider > span> img{
+    width: 15%;
+    margin-right: 10px;
+    
+    
+    
+}
+.left-slider > span> li{
+    font-size:13px;
+    -webkit-box-orient: vertical;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.right{
+    background:linear-gradient(white,rgb(158, 213, 238));
+    width: 550px;
+    overflow-y: auto;
+    height: 93vh;
+    font-size: 25px;
+    list-style: none;
+    
+}
+.right > div{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px;
+
+}
+
+
+.profile-others{
+    background: #1e1e1e;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+.profile-others > img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+.profile-others > li{
+    font-size:15px;
+    -webkit-box-orient: vertical;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+.centerpart{
+    background:linear-gradient(white,rgb(158, 213, 238));
+    width: 60%;
+    overflow-y: auto;
+
+}
+
+
+  
+.centerpart::-webkit-scrollbar {
+    display: none;
+}
+  
+
+
+.first > input{
+    position: relative;
+    top: 2%;
+    height: 90%;
+}
+.first > input:focus{
+   outline: none;
+}
+.first > i{
+    position: relative;
+    bottom: 10%;
+    color: rgb(105, 102, 102);
+}
+
+
+/* -------------------------------For story ------------------------------*/
+
+
+.center-main{
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+   
+}
+.story-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+    width: 100%;
+  
+}
+
+.story{
+    margin-left: 2%;
+    height: 80%;
+    width: 15%;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    
+}
+
+.story > img{
+    bottom: 19%;
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.circle{
+    position: relative;
+    z-index: 4;
+    top: 10%;
+    margin-left: 10px;
+    height: 15%;
+    width: 20%;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    border: 3px solid blue;
+}
+.circle > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#creator{
+    height: 77%;
+
+}
+#creator > img  {
+    position: relative;
+    top: 4%;
+    height: 70%;
+    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+}
+.adder{
+    width: 100%;
+    height: 30%;
+  
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 2px 5px 0px rgb(138 136 136);
+}
+/* --------------------------Story End-------------------------------- */
+
+
+/*------------------------ For Options---------------------------------- */
+.options{
+    
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 10rem;
+    width: 100%;
+  
+}
+.vlog {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 10rem;
+    width: 86%;
+    background-color:white;
+}
+.vlogEdit{
+    width: 80%;
+    height: 43%;
+    background-color: rgb(211 225 233 / 37%);
+    border-radius: 20px;
+}
+.vlogEdit > input {
+    font-size: 18px;
+    position: relative;
+    top: 25%;
+    left: 2%;
+    width: 80%;
+    border: none;
+    background-color: rgb(211 225 233 / 37%);
+    
+}
+.vlogEdit > input:focus {
+   outline: none;
+}
+.dp{
+    position: relative;
+    margin-right: 10px;
+    margin-left: 77px;
+    height: 44.2%;
+    width: 4.9%;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+}
+.dp > img{
+    position: relative;
+    margin-right: 10px;
+    margin-left: 77px;
+    height: 44.2%;
+    width: 4.9%;
+    border-radius: 20px;
+    
+}
+/* For Sharing  */
+.sharingMethod{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    height: 10rem;
+    width: 86%;
+    background-color: #ffffff;
+}
+.methods{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 10%;
+    margin-left: 6%;
+}
+.methods > i {
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.bxs-video-plus{
+    color: rgb(243, 9, 87);
+}
+.bx-images{
+    color: rgb(4, 184, 4);
+}
+.bx-happy-alt{
+    color: rgb(191, 204, 10);
+}
+
+/* For Contants */
+
+.constants-holder{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    height: 100vh;
+  
+    margin-left: 8%;
+}
+.constant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 2px 5px 0px rgb(138 136 136);
+}
+
+
+.conimg{
+    width: 75%;
+}
+.conimg2{
+    width: 75%;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    background-color: white;
+    width: 42rem;
+
+}
+.dps{
+    margin-right: 10px;
+    margin-left: 11px;
+    height: 74.2%;
+    width: 5.5%;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    margin-top: 1%;
+}
+.dps > img{
+    
+ 
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+   
+    margin-top: 1%; 
+}
+.title{
+    position: relative;
+    bottom: 24%;
+    display: flex;
+    flex-direction: column;
+}
+.title > p{
+    position: relative;
+    bottom: 80%;
+}
+.inf2{
+    display: flex;
+    flex-direction: row;
+
+    height: 3rem;
+    background-color: white;
+    width: 42rem;
+}
+.inf1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    background-color: white;
+    width: 42rem;
+}
+ .method {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+   left: 10%;
+    margin-left: 10%;
+}
+.method > i{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    
+}
+.inf1 > i{
+    
+font-size:20px;
+margin-top: 10px;
+margin-left: 10px;
+color: blue;
+}
+.inf1 > p {
+    position: relative;
+    font-size :15px;
+    margin-top: 10px;
+  
+
+}
+.p1{
+    margin-left: 400px;
+}
